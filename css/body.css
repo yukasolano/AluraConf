@@ -5,9 +5,6 @@
 
 .panel{
     padding: 2em 2em;
-}
-
-.panel-about{
     text-align: center;
 }
 
@@ -21,9 +18,52 @@
     margin-bottom: 0.5em;
 }
 
-.panel .about-description{
+.panel p{
     font-size:0.8em;
     line-height: 1.5em;
 }
 
+/*Palestrante panel*/
+.panel-speakers {
+    background: #ef7247;
+}
 
+.panel-speakers .title,
+.panel-speakers .subtitle{
+    color:white;
+}
+
+.panel-speakers .title{
+    text-transform: uppercase;
+}
+
+.panel-speakers .speakers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.panel-speakers .speaker{
+    background: white;
+    border-radius: 8px;
+    margin: 0.5em 0.8em;
+    padding: 0.5em;
+    width: 180px;
+}
+
+.panel-speakers .speaker-portrait img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.panel-speakers .speaker-name{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.panel-speakers .speaker-bio{
+    font-weight: bold;
+}
