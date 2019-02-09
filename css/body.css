@@ -23,7 +23,7 @@
     line-height: 1.5em;
 }
 
-/*Palestrante panel*/
+/*Speakers panel*/
 .panel-speakers {
     background: #ef7247;
 }
@@ -67,3 +67,31 @@
 .panel-speakers .speaker-bio{
     font-weight: bold;
 }
+
+/* Form panel*/
+.panel-form .title{
+    color: #ef7247;
+    text-transform: uppercase;
+}
+
+.panel-form .field{
+    margin-bottom: 1em;
+}
+
+.panel-form .field label{
+    display:block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.panel-form .field .field-input{
+    border-radius: 5px;  
+    box-shadow: 1px 1px 5px #48A2A6; 
+    display:block;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.2em;    
+}
+
+
